@@ -4,7 +4,8 @@ public class Jogador extends utilidades {
         static double maldade = 0;
         double bondade;
     
-        public static void darNome(){
+        public static void darNome(String nome){
+            println("Seu nome agora é " + nome);
         }
     
         public static void pontoMald(double maldade){
